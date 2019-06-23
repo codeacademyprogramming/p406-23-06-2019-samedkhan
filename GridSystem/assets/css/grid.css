@@ -143,17 +143,15 @@
 /**
  * 700px -> true
  */
-@media screen 
-and (max-width:1140px) {
 
-}
-
+@media screen and (max-width:1140px) {}
 
 /**
  * 700px -> false
  */
-@media screen 
-and (max-width:1140px) 
-and (min-width:768px) {
 
+@media screen and (max-width:1140px) and (min-width:768px) {
+  .class-sm {
+    width: 100px;
+  }
 }
