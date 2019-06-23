@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.square {
+  height: 100px;
+  background-color: #6200EE;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+@media screen and (max-width:1100px) {
+  .section-heading {
+    font-size: 20px;
+  }
+}

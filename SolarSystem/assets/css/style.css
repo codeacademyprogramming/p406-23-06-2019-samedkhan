@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#solar-system {
+  height: 100vh;
+  background-image: url(https://cdn4.img.sputniknews.com/images/107038/27/1070382715.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sun {
+  position: relative;
+}
+
+#sun>img {
+  width: 90px;
+}
+
+#sun>#earth_n_moon>#earth>img {
+  width: 60px;
+}
+
+#earth_n_moon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: calc(100% + 70px);
+  transform-origin: top;
+  animation-name: spin;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#earth {
+  position: relative;
+}
+
+#moon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform-origin: top;
+  animation-name: spin;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#moon>img {
+  width: 20px;
+}
+
+@keyframes spin {
+  from {}
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #6200EE;
+}
+
+.items-list {
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.items-list .square {
+  animation-name: firstAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes firstAnimation {
+  0% {
+    background-color: #6200EE;
+  }
+  100% {
+    background-color: red;
+    transform: rotate(45deg) scale(1.3);
+  }
+}
