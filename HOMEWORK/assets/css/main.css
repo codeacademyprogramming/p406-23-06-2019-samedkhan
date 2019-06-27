@@ -63,16 +63,19 @@ a{
     line-height: 45px;
 }
 
-#intro .intro{
-    height: 600px;
+#intro {
+    
     background-repeat: no-repeat;
+    /* background-position: bottom right; */
     background-position: right;
     background-position-y: inherit;
+    background-size: contain;
 }
+
 #intro .intro .menu_items{
-    padding: 30px 0px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
+    padding: 40px 0px;
 }
 #intro .intro .menu_items h1{
     font-size:20px;
@@ -109,9 +112,7 @@ a{
     color: #6c63ff;
 }
 
-.intro_heading{
-    margin-top: 150px;
-}
+
 
 .intro_heading_paragraph>p>span{
     color:tomato;
@@ -148,7 +149,7 @@ a{
     border: none;
 }
 .intro_heading_form .form_points select{
-    padding: 15px 10px;
+    padding: 14px 10px;
     border-radius: 7px;
     width: 100px;
     border: none;
@@ -162,40 +163,71 @@ a{
     line-height: 46px;
     color: white;
 }
-/* .intro_heading_form .form_points>ul{
+#intro_features{
     background-color: #6c63ff;
-    padding: 30px 20px;
-    border-radius: 0px 0px 7px 7px;
-} */
-/* .intro_heading_form .form_points>ul{
-    display: flex;
-    justify-content: space-around;
+    padding: 50px 0px;
 }
-.intro_heading_form .form_points>ul>li{
-    padding: 
-}
-
-.intro_heading_form .form_points>ul>li>input{
-    padding: 15px 0px;
-    border-radius:7px;
-    margin:0px 5px;
+#intro_features .features_list {
+    display:flex;
+    justify-content: space-between;
+    color:white;
     
 }
-.intro_heading_form .form_points>ul>li>select{
-    border-radius:7px;
-    margin:0px 5px;
-    padding: 15px 0px;    
+#intro_features .features_list .features_item{
+    width: 25%;
+    padding: 25px 28px 25px 0px;
+}
+.features_item_icon{
+    font-size:60px;
+}
+.features_item_heading{
+    font-size: 18px;
+    padding: 15px 0px;
+    font-family: "Nunito-EB";
+}
+.features_item_description{
+    font-size:16px;
+    line-height: 20px;
+}
+#categories{
+    padding:100px 0px;
+}
+.section_heading{
+    margin:0 auto;
+    text-align: center;
+}
+.section_heading_description{
+    color:#9b9b9b;
+    font-size:18px;
+}
+.section_heading_name{
+    font-size: 30px;
+    font-family: "Nunito-EB"
+}
+.categories_item{
+    position: relative;
+    border-bottom:1px solid #9b9b9b;
+    padding: 10px 5px;
+    width: 20%;
+    transition: all 0.4s linear;
+}
+.categories_item:hover{
+    background-color: pink;
+    transform: translateX(10px);
+    transition: all 0.4s linear;
+}
+.categories_item_name{
+    padding: 15px 0px;
+    font-size: 18px;
+    
+}
+.categories_item_name>a{
+    color:black;
+}
+
+.categories_item_about{
     color:#9b9b9b;
 }
-.intro_heading_form .form_points>ul>li>a{
-    padding: 14px 30px;
-    border-radius: 7px;
-    margin: 0px 5px;
-    line-height: 51px;
-    color: white;
-} */
-
-/* .intro_heading_form .form_points>ul>li{
-    display:inline-block;
-    width:25%;
-} */
+.categories_item_about span{
+    color:tomato;
+}
