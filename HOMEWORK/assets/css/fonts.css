@@ -35,6 +35,7 @@
   font-style: normal;
 }
 
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -86,6 +87,9 @@
 .icon-user-tie:before {
   content: "\e976";
 }
+.icon-search:before {
+  content: "\e986";
+}
 .icon-menu:before {
   content: "\e9bd";
 }
@@ -106,6 +110,15 @@
 }
 .icon-circle-up:before {
   content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-radio-checked:before {
+  content: "\ea54";
 }
 .icon-facebook:before {
   content: "\ea90";

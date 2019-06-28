@@ -5,6 +5,9 @@
     .container{
         width: 1140px;
         margin:0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .col-lg-1{
         width: calc(100% / 12);
