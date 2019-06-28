@@ -407,7 +407,9 @@ a{
     border-radius: 6px;    
 }
 
-
+#digits{
+    background-size: cover;
+}
 .digits{
     padding:100px 0px;
     color:white;
@@ -420,7 +422,7 @@ width:100%;
 background-color: #6c63ff;
 top: 0;
 left: 0;
-opacity:0.6;
+opacity:0.8;
 
 }
 .digits_item_list{
