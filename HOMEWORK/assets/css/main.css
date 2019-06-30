@@ -1,0 +1,725 @@
+body {
+    font-family: 'Nunito-R';
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_row_items {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #9b9b9b;
+    box-sizing: border-box;
+    max-height: 70px;
+}
+
+.header_row_items .logo_items {
+    display: flex;
+}
+
+.header_row_items .logo_items .logo {
+    width: 40%;
+    margin: 20px 0px;
+}
+
+.header_row_items .logo_items .logo img {
+    width: 100%;
+}
+
+.header_row_items .logo_items .firm_name {
+    padding: 0px 20px;
+    border: 1px solid #9b9b9b;
+    margin-left: 15px;
+    background-color: #222;
+}
+
+.header_row_items .logo_items .firm_name a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #9b9b9b;
+    line-height: 80px;
+}
+
+.header_row_items .logo_items .firm_name a>span {
+    margin-right: 5px;
+}
+
+.header_row_items .responsive_items {
+    display: flex;
+}
+
+.header_row_items .responsive_items ul {
+    display: flex;
+}
+
+.header_row_items .responsive_items ul>li {
+    border-left: 1px solid #9b9b9b;
+    padding: 20px;
+}
+
+.header_row_items .responsive_items ul>li:nth-child(4) {
+    background-color: #7ac64d;
+}
+
+.header_row_items .responsive_items ul>li:nth-child(4)>a {
+    color: white;
+}
+
+.header_row_items .responsive_items ul>li>a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+.header_row_items .responsive_items ul>li>a>span {
+    line-height: 45px;
+}
+
+#intro {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: inherit;
+}
+
+#intro .intro .menu_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+#intro .intro .menu_items h1 {
+    font-size: 20px;
+    font-family: 'Nunito-EB';
+}
+
+#intro .intro .menu_list ul>li {
+    display: inline-block;
+}
+
+#intro .intro .menu_list ul>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+
+#intro .intro .menu_list ul>li>.button {
+    border-radius: 8px;
+    color: white;
+    padding: 15px 20px;
+}
+
+#intro .intro .menu_list ul>li>.button:hover {
+    color: white;
+}
+
+.violet {
+    background-color: #6c63ff;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+#intro .intro .menu_list ul>li:first-child>a {
+    color: #6c63ff;
+}
+
+#intro .intro .menu_list ul>li>a:hover {
+    color: #6c63ff;
+}
+
+.intro_heading_paragraph>p>span {
+    color: tomato;
+}
+
+.intro_heading_header {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Nunito-EB';
+}
+
+.intro_heading_form .form_side>ul>li {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.intro_heading_form .form_side>ul>li:first-child {
+    background-color: #6c63ff;
+}
+
+.intro_heading_form .form_side>ul>li:last-child {
+    background-color: white;
+}
+
+.intro_heading_form .form_side>ul>li:first-child>a {
+    color: white;
+}
+
+.intro_heading_form .form_points {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6c63ff;
+    padding: 30px 20px;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.intro_heading_form .form_points input {
+    padding: 15px 10px;
+    border-radius: 7px;
+    width: 100px;
+    border: none;
+}
+
+.intro_heading_form .form_points select {
+    padding: 14px 10px;
+    border-radius: 7px;
+    width: 100px;
+    border: none;
+    color: gray;
+}
+
+.intro_heading_form .form_points a {
+    padding: 13px 48px;
+    border-radius: 7px;
+    width: 100px;
+    border: none;
+    line-height: 46px;
+    color: white;
+}
+
+#intro_features,
+#candidates,
+#subscribe {
+    background-color: #6c63ff;
+}
+
+.features_item {
+    padding: 25px 28px 25px 0px;
+    color: white;
+}
+
+.features_item_icon,
+.digits_item_icon {
+    font-size: 60px;
+}
+
+.features_item_heading {
+    font-size: 18px;
+    padding: 15px 0px;
+    font-family: "Nunito-EB";
+}
+
+.features_item_description {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#categories {
+    padding: 100px 0px;
+}
+
+.section_heading {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.section_heading_description {
+    color: #9b9b9b;
+    font-size: 18px;
+}
+
+.section_heading_name {
+    font-size: 30px;
+    font-family: "Nunito-EB"
+}
+
+.categories_item {
+    position: relative;
+    border-bottom: 1px solid #9b9b9b;
+    padding: 10px 5px;
+    transition: all 0.4s linear;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.categories_item:hover {
+    background-color: pink;
+}
+
+.categories_item:hover div {
+    color: black;
+    transform: translateX(10px);
+    transition: all 0.4s linear;
+}
+
+.categories_item:hover::after {
+    opacity: 1;
+    transform: translateX(10px);
+    transition: all 0.4s linear;
+}
+
+.categories_item::after {
+    content: "\ea42";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    opacity: 0;
+}
+
+.categories_item_name {
+    padding: 15px 0px;
+    font-size: 18px;
+    transition: all 0.4s linear;
+}
+
+.categories_item_name>a {
+    color: black;
+}
+
+.categories_item_about {
+    color: #9b9b9b;
+    transition: all 0.4s linear;
+}
+
+.categories_item_about span {
+    color: tomato;
+}
+
+/* SECTION GLOBAL PARAMETERS */
+#browse_job_by_specialism,
+#jobs,
+#intro_features,
+#testimonial,
+#candidates,
+#blog,
+#footer {
+    padding: 100px 0px;
+    background-size: cover;
+}
+
+.browse_job_by_specialism {
+    background-color: white;
+    padding: 50px 60px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.browse_job_by_specialism::after {
+    content: "\e986";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 140px;
+    color: #6c63ff;
+    opacity: 0.3;
+}
+
+.browse_job_by_specialism_heading span {
+    color: #6c63ff;
+    font-family: 'Nunito-B';
+}
+
+.browse_job_by_specialism_heading h1 {
+    font-size: 32px;
+    font-family: 'Nunito-EB';
+}
+
+.browse_job_by_specialism_description {
+    font-size: 16px;
+    line-height: 30px;
+    color: #9b9b9b;
+}
+
+#jobs {
+    background-color: #fff;
+}
+
+#jobs .section_heading {
+    text-align: left;
+}
+
+/* // Freelance, Fulltime, Part-time common class */
+.freelance,
+.fulltime,
+.parttime,
+.intership,
+.temporary {
+    background-color: #1644ba;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+.fulltime {
+    background-color: #fff568;
+    color: #333333;
+}
+
+.parttime {
+    background-color: #6c63ff;
+}
+
+.intership {
+    background-color: #6c757d;
+}
+
+.temporary {
+    background-color: red;
+}
+
+.jobs_list>ul>li {
+    border-bottom: 1px solid #9b9b9b;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.job_name {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.job_name h1 {
+    font-size: 28px;
+    font-family: 'Nunito-B';
+    margin-right: 20px;
+}
+
+.job_company a::before {
+    content: "\e92e";
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+
+.job_location {
+    color: #9b9b9b;
+}
+
+.job_location::before {
+    content: "\ea54";
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+
+.job_apply a {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.job_apply::before {
+    content: "\e9da";
+    font-family: 'icomoon';
+    margin-right: 5px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #ffe5e0;
+    color: red;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.job_apply:hover::before {
+    color: white;
+    background-color: red;
+}
+
+.recruitments_item {
+    width: inherit;
+    width: inherit;
+    border: 1px solid #9b9b9b;
+    margin-top: 50px;
+}
+
+.recruitments_item_image {
+    width: inherit;
+}
+
+.recruitments_item_image img {
+    width: 100%;
+}
+
+.recruitments_item_description {
+    padding: 20px;
+    background-color: #9b9b9b59;
+}
+
+.item_name a {
+    font-size: 20px;
+    font-family: 'Nunito-B';
+    color: black;
+}
+
+.item_description {
+    color: #9b9b9b;
+    font-size: 15px;
+}
+
+.item_description span {
+    color: white;
+    padding: 4px 8px;
+    background-color: tomato;
+    border-radius: 6px;
+}
+
+#digits {
+    background-size: cover;
+}
+
+.digits {
+    padding: 100px 0px;
+    color: white;
+    position: relative;
+}
+
+.overflow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #6c63ff;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.digits_item_list {
+    z-index: 10;
+    position: relative;
+    text-align: center;
+}
+
+.digits_item_number {
+    font-size: 34px;
+}
+
+.digits_item_name {
+    font-size: 18px;
+}
+
+.testimonial_item {
+    padding: 25px;
+}
+
+.testimonial_item_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.testimonial_item_image::after {
+    content: '"';
+    position: absolute;
+    font-size: 50px;
+    color: red;
+    bottom: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 55px;
+}
+
+.testimonial_item_image img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.testimonial_item_description {
+    line-height: 30px;
+    color: #6c757d;
+}
+
+.testimonial_item_name h1 {
+    font-size: 18px;
+}
+
+.testimonial_item_name span {
+    display: block;
+    font-size: 14px;
+    color: #9b9b9b;
+    padding-top: 20px;
+}
+
+#candidates .section_heading>div {
+    color: white;
+}
+
+.candidates_item {
+    text-align: center;
+}
+
+.candidates_item_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.candidates_item_image img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.candidates_item_name {
+    color: white;
+    font-size: 20px;
+    font-family: 'Nunito-B';
+}
+
+.candidates_item_location {
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+#blog .section_heading_name h1 {
+    font-family: 'Nunito-R'
+}
+
+#blog .section_heading_name span {
+    font-family: 'Nunito-EB'
+}
+
+.blog_item {
+    width: 90%;
+}
+
+.blog_item_image img {
+    width: 100%;
+}
+
+.blog_item_date {
+    color: #9b9b9b;
+}
+
+.blog_item_description a {
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+}
+
+.blog_item_description a:hover {
+    color: #6c63ff;
+}
+
+#subscribe {
+    padding: 50px 0px;
+}
+
+#subscribe .section_heading_name {
+    font-family: 'Nunito-R';
+    color: white;
+}
+
+#subscribe .section_heading_description {
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+}
+
+.subscribe_form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe_form input {
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.subscribe_form input[type='text'] {
+    border-radius: 7px 0px 0px 7px;
+    border: none;
+}
+
+.subscribe_form input[type='submit'] {
+    border-radius: 0px 7px 7px 0px;
+    color: white;
+    background-color: tomato;
+    border: none;
+}
+
+#footer {
+    background-color: black;
+}
+
+.footer_item {
+    padding: 0px 15px 0px 0px;
+}
+
+.footer_item_heading {
+    color: white;
+    font-size: 20px
+}
+
+.footer_item_description {
+    color: #9b9b9b;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.footer_item_description>ul>li {
+    padding: 7px 0px;
+}
+
+.footer_item_description>ul>li>a {
+    color: #9b9b9b;
+}
+
+.footer_social_links>ul>li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #333;
+    text-align: center;
+    line-height: 45px;
+    margin: 5px;
+}
+
+.footer_social_links a {
+    color: white;
+    font-size: 20px;
+}
+
+.footer_item_description>div>span {
+    display: table-cell;
+}
+
+.footer_item_description>div>span[class*="icon"] {
+    padding: 0px 20px 0px 0px;
+    color: white;
+}
+
+.footer_item_description .phone {
+    color: white;
+}
+
+.footer_item_description .mail {
+    color: white;
+}
+
+.footer_signature {
+    color: #9b9b9b;
+    text-align: center;
+}
+
+.footer_signature span {
+    color: red;
+}
